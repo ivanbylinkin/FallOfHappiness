@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{43073BF9-8998-3F62-9187-A30E1A9E7CBF}") = "Fall of Happiness", "Assembly-CSharp.csproj", "{5544DDBE-27CD-93E7-F25A-DD869031A0BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5544DDBE-27CD-93E7-F25A-DD869031A0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5544DDBE-27CD-93E7-F25A-DD869031A0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5544DDBE-27CD-93E7-F25A-DD869031A0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5544DDBE-27CD-93E7-F25A-DD869031A0BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

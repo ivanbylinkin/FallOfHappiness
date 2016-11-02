@@ -1,0 +1,563 @@
+fileFormatVersion: 2
+guid: 3f50b6664ccb64a9ea764cd8a3b3a869
+timeCreated: 1478025691
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Burke_front_move1
+    21300002: Burke_front_standing
+    21300004: Burke_front_move2
+    21300006: Burke_left_move1
+    21300008: Burke_left_standing
+    21300010: Burke_left_move2
+    21300012: Burke_right_move1
+    21300014: Burke_right_standing
+    21300016: Burke_right_move2
+    21300018: Burke_back_move1
+    21300020: Burke_back_standing
+    21300022: Burke_back_move2
+    21300024: player_boy_front_move1
+    21300026: player_boy_front_standing
+    21300028: player_boy_front_move2
+    21300030: player_boy_left_move1
+    21300032: player_boy_left_standing
+    21300034: player_boy_left_move2
+    21300036: player_boy_right_move1
+    21300038: player_boy_right_standing
+    21300040: player_boy_right_move2
+    21300042: player_boy_back_move1
+    21300044: player_boy_back_standing
+    21300046: player_boy_back_move2
+    21300048: player_girl_front_move1
+    21300050: player_girl_front_standing
+    21300052: player_girl_front_move2
+    21300054: player_girl_left_move1
+    21300056: player_girl_left_standing
+    21300058: player_girl_left_move2
+    21300060: player_girl_right_move1
+    21300062: player_girl_right_standing
+    21300064: player_girl_right_move2
+    21300066: player_girl_back_move1
+    21300068: player_girl_back_standing
+    21300070: player_girl_back_move2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Burke_front_move1
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 448
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Burke_front_standing
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 448
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Burke_front_move2
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 448
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Burke_left_move1
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 384
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Burke_left_standing
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 384
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Burke_left_move2
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 384
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Burke_right_move1
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 320
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Burke_right_standing
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 320
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Burke_right_move2
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 320
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Burke_back_move1
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 256
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Burke_back_standing
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 256
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Burke_back_move2
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 256
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_boy_front_move1
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 448
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_boy_front_standing
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 448
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_boy_front_move2
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 448
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_boy_left_move1
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 384
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_boy_left_standing
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 384
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_boy_left_move2
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 384
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_boy_right_move1
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 320
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_boy_right_standing
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 320
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_boy_right_move2
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 320
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_boy_back_move1
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 256
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_boy_back_standing
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 256
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_boy_back_move2
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 256
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_girl_front_move1
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 192
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_girl_front_standing
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 192
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_girl_front_move2
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 192
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_girl_left_move1
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 128
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_girl_left_standing
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 128
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_girl_left_move2
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 128
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_girl_right_move1
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 64
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_girl_right_standing
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 64
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_girl_right_move2
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 64
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_girl_back_move1
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 0
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_girl_back_standing
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_girl_back_move2
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 0
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

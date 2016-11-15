@@ -23,6 +23,11 @@ public class Player : MonoBehaviour {
 		rb2d = GetComponent<Rigidbody2D> ();
 		// Get a component reference to the Player's animator component
 		animator = GetComponent<Animator>();
+		// move player if necessary
+		if (GameManager.instance.playerPos != Vector3.zero && GameManager.instance.entered == false) {
+			transform.position = GameManager.instance.playerPos;
+			GameManager.instance.playerPos = Vector3.zero;
+		}
 	}
 
 	// FixedUpdate is called at a fixed interval and is independent of frame rate. Put physics code here.
@@ -56,11 +61,11 @@ public class Player : MonoBehaviour {
 			if (interactableObject.type == "Door") {
 				if (GameManager.instance.playerPos == Vector3.zero) {
 					GameManager.instance.playerPos = transform.position;
+					GameManager.instance.entered = true;
 					SceneManager.LoadScene (interactableObject.enterScene);
 				} else {
+					GameManager.instance.entered = false;
 					SceneManager.LoadScene (interactableObject.enterScene);
-					transform.position = GameManager.instance.playerPos;
-					GameManager.instance.playerPos = Vector3.zero;
 				}
 			}
 		}

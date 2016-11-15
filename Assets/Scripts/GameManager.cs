@@ -5,6 +5,7 @@ using System.Collections.Generic;
 public class GameManager : MonoBehaviour {
 	public static GameManager instance = null;
 	public Vector3 playerPos;
+	public bool entered = false;
 	// keep track of classrooms that have had toolboxes
 	private Dictionary<string,int> toolboxes = new Dictionary<string,int>();
 

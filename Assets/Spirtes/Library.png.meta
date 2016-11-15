@@ -1,0 +1,564 @@
+fileFormatVersion: 2
+guid: 885807a5d1096496d91e14c8e5d3f413
+timeCreated: 1479172543
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: White_Brick_Wall
+    21300002: White_Brick_Door_Closed
+    21300004: White_Brick_Door_Opening
+    21300006: White_Brick_Door_Open
+    21300008: White_Brick_DoubleDoor_Closed
+    21300010: White_Brick_DoubleDoor_Opening
+    21300012: White_Brick_DoubleDoor_Open
+    21300014: Brick_Wall
+    21300016: Brick_Door_Closed
+    21300018: Brick_Door_Opening
+    21300020: Brick_Door_Open
+    21300022: Brick_DoubleDoor_Closed
+    21300024: Brick_DoubleDoor_Opening
+    21300026: Brick_DoubleDoor_Open
+    21300028: Yellow_Door_Open
+    21300030: Yellow_Door_Opening
+    21300032: Yellow_Door_Closed
+    21300034: Yellow_Wall
+    21300036: Brick_Glass_DoubleDoor_Closed
+    21300038: Brick_Glass_DoubleDoor_Opening
+    21300040: Brick_Glass_DoubleDoor_Open
+    21300042: Blue_Wall
+    21300044: Blue_Door_Closed
+    21300046: Blue_Door_Opening
+    21300048: Blue_Door_Open
+    21300050: White_Wall
+    21300052: White_Door_Close
+    21300054: White_Door_Closed
+    21300056: White_Door_Opening
+    21300058: White_Door_Open
+    21300060: Slieth_Carpet
+    21300062: Slieth_Tile_1
+    21300064: Slieth_Tile_2
+    21300066: Slieth_Top_Wall
+    21300068: Slieth_Top_Door_Closed
+    21300070: Slieth_Top_Door_Opening
+    21300072: Slieth_Top_Door_Open
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: White_Brick_Wall
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 4833
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White_Brick_Door_Closed
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 4833
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White_Brick_Door_Opening
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 4834
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White_Brick_Door_Open
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 4834
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White_Brick_DoubleDoor_Closed
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 4834
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White_Brick_DoubleDoor_Opening
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 4834
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White_Brick_DoubleDoor_Open
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 4834
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Brick_Wall
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 4676
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Brick_Door_Closed
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 4675
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Brick_Door_Opening
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 4676
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Brick_Door_Open
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 4675
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Brick_DoubleDoor_Closed
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 4675
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Brick_DoubleDoor_Opening
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 4675
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Brick_DoubleDoor_Open
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 4676
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Yellow_Door_Open
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 4508
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Yellow_Door_Opening
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 4508
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Yellow_Door_Closed
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 4508
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Yellow_Wall
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 4508
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Brick_Glass_DoubleDoor_Closed
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 4508
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Brick_Glass_DoubleDoor_Opening
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 4508
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Brick_Glass_DoubleDoor_Open
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 4508
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blue_Wall
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 4339
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blue_Door_Closed
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 4338
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blue_Door_Opening
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 4338
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blue_Door_Open
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 4338
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White_Wall
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 4176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White_Door_Closed
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 4176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White_Door_Opening
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 4176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White_Door_Open
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 4176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slieth_Carpet
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 3981
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slieth_Tile_1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 3981
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slieth_Tile_2
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 3981
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slieth_Top_Wall
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 4833
+        width: 8
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slieth_Top_Door_Closed
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 4675
+        width: 35
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slieth_Top_Door_Opening
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 4675
+        width: 35
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slieth_Top_Door_Open
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 4675
+        width: 35
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

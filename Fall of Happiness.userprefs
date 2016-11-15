@@ -1,11 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ToolboxController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
     <Files>
       <File FileName="Assets/Scripts/CameraController.cs" Line="17" Column="22" />
-      <File FileName="Assets/Scripts/Player.cs" Line="41" Column="2" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="50" Column="16" />
-      <File FileName="Assets/Scripts/ToolboxController.cs" Line="24" Column="13" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="53" Column="39" />
+      <File FileName="Assets/Scripts/ToolboxController.cs" Line="37" Column="14" />
+      <File FileName="Assets/Scripts/InteractableObject.cs" Line="6" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

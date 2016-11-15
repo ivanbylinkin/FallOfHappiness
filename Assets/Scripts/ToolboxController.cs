@@ -17,7 +17,7 @@ public class ToolboxController : MonoBehaviour {
 		}
 	}
 
-	float RandomCoins(){
+	public float RandomCoins(){
 		float value = Random.value * 5;
 		if (value >= 3.5 && HighValue ()) {
 			// sometimes you get lucky and hit a high value toolbox
@@ -26,11 +26,16 @@ public class ToolboxController : MonoBehaviour {
 		return value;
 	}
 
-	bool HighValue(){
+	public bool HighValue(){
 		if (Random.value >= 0.5)
 		{
 			return true;
 		}
 		return false;
+	}
+
+	public void Open(){
+		GameManager.instance.OpenToolbox (room);
+		Destroy(gameObject);
 	}
 }

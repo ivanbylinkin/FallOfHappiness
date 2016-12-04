@@ -1,14 +1,16 @@
 fileFormatVersion: 2
-guid: 20f9839a6b3804ae299715fd9c79dcd7
-timeCreated: 1479237084
+guid: 59c297c4df2974140b8af7a4c3befa56
+timeCreated: 1479236374
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: C-Classic-School_0
+    21300000: computers_0
+    21300002: computers_1
+    21300004: computers_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -44,7 +46,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 1, y: 392, z: 575, w: 186}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -54,13 +56,39 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: C-Classic-School_0
+      name: computers_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 448
-        width: 96
-        height: 49
+        y: 395
+        width: 100
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: computers_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 489
+        width: 101
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: computers_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 103
+        height: 88
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

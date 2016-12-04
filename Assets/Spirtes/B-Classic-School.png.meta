@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c511b3d51862143d6acaf9b4c3633b59
-timeCreated: 1477968220
+timeCreated: 1479240939
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -15,6 +15,8 @@ TextureImporter:
     21300016: B-Classic-School_8
     21300018: B-Classic-School_9
     21300020: B-Classic-School_10
+    21300022: B-Classic-School_11
+    21300024: B-Classic-School_12
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -201,6 +203,32 @@ TextureImporter:
         y: 448
         width: 63
         height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: B-Classic-School_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 63
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: B-Classic-School_12
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 68
+        width: 24
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

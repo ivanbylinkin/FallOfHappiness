@@ -4,11 +4,11 @@ using System.Collections;
 public class ToolboxController : MonoBehaviour {
 	// TODO: have an array of goods to be found and randomly select what this toolbox contains
 	public float sliethCoins = 0;
-	public string room;
+    public string room;
 
-	// Use this for initialization
-	void Awake () {
-		bool keep = GameManager.instance.GenerateToolbox (room);
+    // Use this for initialization
+    void Awake () {
+        bool keep = GameManager.instance.GenerateToolbox (room);
 		if (!keep) {
 			Destroy (gameObject);
 		} else {
@@ -27,7 +27,7 @@ public class ToolboxController : MonoBehaviour {
 	}
 
 	public bool HighValue(){
-		if (Random.value >= 0.5)
+		if (Random.value >= 0.25)
 		{
 			return true;
 		}

@@ -24,10 +24,11 @@ public class Player : MonoBehaviour {
 		rb2d = GetComponent<Rigidbody2D> ();
 		// Get a component reference to the Player's animator component
 		animator = GetComponent<Animator>();
-		// move player if necessary
-		if (GameManager.instance.playerPos != Vector3.zero && GameManager.instance.entered == false) {
-			transform.position = GameManager.instance.playerPos;
-			GameManager.instance.playerPos = Vector3.zero;
+        // move player if necessary
+        var floor = GameManager.instance.currentFloor;
+        if (GameManager.instance.playerPos[floor] != Vector3.zero && GameManager.instance.entered[floor] == false) {
+			transform.position = GameManager.instance.playerPos[floor];
+			GameManager.instance.playerPos[floor] = Vector3.zero;
 		}
 	}
 
@@ -60,15 +61,36 @@ public class Player : MonoBehaviour {
 	void Update(){
 		// check if user is trying to open an object
 		if (canOpen && Input.GetKeyDown("space")){
-			interactable.SetTrigger ("open");
 			if (interactableObject.GetComponent<InteractableObject>().type == "Door") {
-				if (GameManager.instance.playerPos == Vector3.zero) {
-					GameManager.instance.playerPos = transform.position;
-					GameManager.instance.entered = true;
-					SceneManager.LoadScene (interactableObject.GetComponent<InteractableObject>().enterScene);
+                interactable.SetTrigger("open");
+                var floor = GameManager.instance.currentFloor;
+                var scene = interactableObject.GetComponent<InteractableObject>().enterScene;
+                if (scene.IndexOf("Floor") > -1 || (scene == "Main" && floor != "first"))
+                {
+                    if (scene == "Main")
+                    {
+                        floor = "first";
+                    }
+                    else if (scene == "SliethFloor2")
+                    {
+                        floor = "second";
+                    }
+                    else
+                    {
+                        floor = "third";
+                    }
+
+                    GameManager.instance.currentFloor = floor;
+                }
+                GameManager.instance.currentRoom = interactableObject.GetComponent<InteractableObject>().name;
+
+                if (GameManager.instance.playerPos[floor] == Vector3.zero) {
+                    GameManager.instance.playerPos[floor] = transform.position;
+                    GameManager.instance.entered[floor] = true;
+                    SceneManager.LoadScene (scene);
 				} else {
-					GameManager.instance.entered = false;
-					SceneManager.LoadScene (interactableObject.GetComponent<InteractableObject>().enterScene);
+					GameManager.instance.entered[floor] = false;
+					SceneManager.LoadScene (scene);
 				}
 			} else if (interactableObject.GetComponent<InteractableObject>().type == "Toolbox") {
 				print ("opening...");

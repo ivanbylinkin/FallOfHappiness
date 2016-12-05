@@ -15,6 +15,7 @@ public class Player : MonoBehaviour {
 	private Animator interactable;
 	private GameObject interactableObject;
 	private bool isRunning = false;
+    private string pDir = "";
 
 	// Use this for initialization
 	void Start()
@@ -47,8 +48,10 @@ public class Player : MonoBehaviour {
 
 		string dir = AnimateDirection (moveHorizontal, moveVertical);
 
-		if (dir != "") {
-			animator.SetTrigger (dir);
+        if (pDir != "") { animator.SetBool(pDir, false); }
+        if (dir != "") {
+            animator.SetBool(dir, true);
+            pDir = dir;
 		}
 
 		MovePlayer (moveHorizontal, moveVertical, isRunning);

@@ -30,7 +30,6 @@ public class GameManager : MonoBehaviour {
 				toolboxes [key] -= (int)Time.deltaTime;
 				toolboxes [key] = Mathf.Max (toolboxes [key], 0);
 			}
-			print (key + " " + toolboxes [key]);
 		}
 	}
 

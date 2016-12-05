@@ -63,10 +63,12 @@ public class Player : MonoBehaviour {
 			interactable.SetTrigger ("open");
 			if (interactableObject.GetComponent<InteractableObject>().type == "Door") {
 				if (GameManager.instance.playerPos == Vector3.zero) {
+                    print("Entered");
 					GameManager.instance.playerPos = transform.position;
 					GameManager.instance.entered = true;
 					SceneManager.LoadScene (interactableObject.GetComponent<InteractableObject>().enterScene);
 				} else {
+                    print(interactableObject.GetComponent<InteractableObject>().enterScene);
 					GameManager.instance.entered = false;
 					SceneManager.LoadScene (interactableObject.GetComponent<InteractableObject>().enterScene);
 				}
@@ -81,7 +83,7 @@ public class Player : MonoBehaviour {
 	// If it is a door, user can go through it
 	void OnCollisionEnter2D (Collision2D col){
 		InteractableObject t_obj = col.gameObject.GetComponent<InteractableObject> ();
-		if (t_obj) {
+        if (t_obj) {
 			canOpen = true;
 			interactable = col.gameObject.GetComponent<Animator> ();
 			interactableObject = col.gameObject;

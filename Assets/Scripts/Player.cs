@@ -103,7 +103,7 @@ public class Player : MonoBehaviour {
 	// If it is a door, user can go through it
 	void OnCollisionEnter2D (Collision2D col){
 		InteractableObject t_obj = col.gameObject.GetComponent<InteractableObject> ();
-		if (t_obj) {
+        if (t_obj) {
 			canOpen = true;
 			interactable = col.gameObject.GetComponent<Animator> ();
 			interactableObject = col.gameObject;
